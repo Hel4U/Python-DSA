@@ -1,0 +1,24 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+heros=['spider man','thor','hulk','iron man','captain america']
+
+print("Length of the list is ", len(heros))
+
+heros.append('black panther')
+
+print(*heros , sep=",")
+
+heros.remove('black panther')
+
+heros.insert(3,'black panther')
+
+print(*heros , sep=",")
+
+heros[1:3] = ['doctor strange']
+
+print(*heros , sep=",")
+
+heros.sort()
+
+print(*heros , sep=",")
